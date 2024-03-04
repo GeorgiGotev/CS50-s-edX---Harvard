@@ -13,3 +13,5 @@ print("Hello,", name, sep="...")
 # combine two lines and print them inline
 print("Hello, ", end="")
 print(name + "!")
+print('Hello, "friend"!')
+print("Hello, \"friend\"!")
