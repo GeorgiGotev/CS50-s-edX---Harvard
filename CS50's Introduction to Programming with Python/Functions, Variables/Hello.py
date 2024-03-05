@@ -15,3 +15,12 @@ print("Hello, ", end="")
 print(name + "!")
 print('Hello, "friend"!')
 print("Hello, \"friend\"!")
+
+
+def greet(input):
+    if "hello" in input:
+        print("Hello, there!")
+    else:
+        print("I'm not sure what do you mean.")
+
+greet("hello")
