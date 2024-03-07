@@ -1,10 +1,16 @@
 def getGuess():
-    n = 10
     playerGuess = input("What is your guess number: ")
+    return playerGuess
     
-    if n == float(playerGuess):
+
+
+def main():
+    guess=float(getGuess())
+
+    if guess == 10:
         print("You won!")
     else:
         print("You lose. Try again!")
 
-getGuess()
+
+main()
